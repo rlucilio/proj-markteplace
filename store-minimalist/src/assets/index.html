@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Loja minimalista</title>
+</head>
+<body>
+
+    <header class="header-page">
+        <header class="header-page__title-nav">
+            <h1 class="header-page__title">Mini</h1>
+    
+            <nav class="menu-nav" id="btn-show-menu">
+                <ul class="menu-nav__list" id="menu">
+                    <div class="menu-nav__close-btn" id="btn-hide-menu"></div>
+                    <li class="menu-nav__item button-focus">Inicio</li>
+                    <li class="menu-nav__item button-focus">Sobre</li>
+                    <li class="menu-nav__item button-focus">Itens</li>
+                    <li class="menu-nav__item button-focus">Blog</li>
+                    <li class="menu-nav__item button-focus">Contato</li>
+                    <li class="menu-nav__item menu-nav__item--highlight button-focus">Login</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="header-page__content">
+            <section class="header-page__resume">
+                <h2 class="header-page__sub-title">
+                    Loja para quem gosta de algo minimalista
+                </h2>
+    
+                <p class="header-page__description">
+                    Aqui podemos colocar uma breve descrição sobre a página útil para para o SEO do google também
+                </p>
+            </section>
+
+            <section class="header-page__actions">
+                <button class="header-page__button header-page__button--primary button-focus">Comprar</button>
+                <button class="header-page__button header-page__button--secondary button-focus">Explorar</button>
+            </section>
+
+            <section class="header-page__images">
+                <img src="./imgs/moveis.png" class="images__furniture" alt="Móvel">
+            </section>
+        </main>
+    </header>
+
+    <main class="main-page">
+        <header class="description-page">
+            <h3 class="description-page__title">Falando sobre os produtos</h3>
+            <p class="description-page__description">Aqui podemos colocar outro breve resumo sobre os produtos vendidos nessa loja</p>
+            <img class="description-page__button" src="../assets/imgs/next.png" alt="">
+        </header>
+
+        <main class="list-products">
+            <ul class="list-products__container">
+                <li class="list-products__item">
+                    <img src="./imgs/cadeira.png" alt="Móvel 1" class="product__image"/>
+                    <div class="details">
+                        <p class="product__name">Nome do produto 1</p>
+                        <p class="product__value">R$ 50</p>
+                    </div>
+                </li>
+                <li class="list-products__item">
+                    <img src="./imgs/mesa.png" alt="Móvel 2" class="product__image">
+                    <div class="details">
+                        <p class="product__name">Outro produto</p>
+                        <p class="product__value">R$ 5</p>
+                    </div>
+                </li>
+                <li class="list-products__item">
+                    <img src="./imgs/abajur de mesa.png" alt="Móvel 3" class="product__image">
+                    <div class="details">
+                        <p class="product__name">Ultimo produto</p>
+                        <p class="product__value">R$ 500</p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+    </main>
+
+    <script src="../main.js"></script>
+    
+</body>
+</html>
