@@ -37,10 +37,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### 🎲 Visualizando a página
 ```bash
 # Clone este repositório
-$ git clone https://github.com/rlucilio/ui-clone-01
+$ git clone https://github.com/rlucilio/proj-markteplace
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd ui-clone-01
+$ cd proj-markteplace
 
 # Pelo caminho do arquivo
 # 1. Copie o caminho do arquivo 
